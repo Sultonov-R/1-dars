@@ -1,0 +1,40 @@
+body{
+    background-color:cornflowerblue;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+
+    form{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        background-color:rgb(134, 168, 230);
+        margin: 0 auto;
+        border-radius: 30px;
+
+        input{
+            padding: 10px 20px;
+            border-radius:15px;
+        }
+        button{
+            padding: 10px 20px;
+            border-radius:15px;
+            cursor: pointer;
+            &:hover{
+                background-color: cornflowerblue;
+                color: white;
+                transition: all 0.4s;
+            }
+        }
+
+        
+    }
+}
